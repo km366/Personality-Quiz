@@ -33,4 +33,7 @@ button:hover{
   border: 10px solid transparent;
   padding: 15px;
   border-image: url("src\assets\images\border.png") 30 stretch;
+  -webkit-border-image: url("src\assets\images\border.png") 30 stretch;
+  -moz-border-image: url("src\assets\images\border.png") 30 stretch;
+  -o-border-image: url("src\assets\images\border.png") 30 stretch;
 }
