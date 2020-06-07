@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(90deg, white, pink);
+    background: linear-gradient(180deg, #f8e5d5, #c2f0f0) fixed repeat;
+    
     text-align: center;
     
     color: navy;

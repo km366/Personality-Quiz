@@ -24,3 +24,10 @@
   font-family: 'snell bold';
   src: url(assets/fonts/SnellBT-Bold.otf) format("opentype");
 }
+h1{
+  font-family: 'snell bold';
+  font-size: 50px;
+}
+img{
+  border-radius: 10px;
+}

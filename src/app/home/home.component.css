@@ -1,30 +1,38 @@
 .row {
     display: flex;
 }
+.column {
+    flex: 33.33%;
+}
+body{
+    background: linear-gradient(180deg, #ffdab9, #afeeee) fixed repeat;
+}
 button {
 width: 30%;
   padding: 5px;
   font-size: 35px;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  background-color:black;
+  background-color:navy;
   color: white;
   margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   border: 1px solid black;
   border-radius: 6px;
   resize: vertical;
 }
-.column {
-    flex: 33.33%;
+button:hover{
+    
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.15em);
+    transition-duration: 0.4s;
+    box-shadow: 0 10px 10px -2px rgba(0,0,0,.5);
 }
+
 figcaption {
     font-size: 15px;
 }
-
-h1{
+h3{
     font-family: 'snell bold';
-    font-size: 50px;
+    font-size: 35px;
 }
-img{
-    border-radius: 8px;
-}
+

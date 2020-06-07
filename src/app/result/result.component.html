@@ -1,10 +1,21 @@
 <body>
     <h1>
-        You Resemble...
+        Here are the results...
     </h1>
+    <div class="row">
+        <div class="column">
+            <h2>{{percentage1}}% match with {{name1}}</h2>
+            <img src="./assets/images/{{name1}}.jpg" height="300" width="250">
+            <p>{{description1}}</p>
+        </div>
+        <div class="column">
+            <h2>{{percentage2}}% match with {{name2}}</h2>
+            <img src="./assets/images/{{name2}}.jpg" height="300" width="300">
+            <p>{{description2}}</p>
+        </div>
+    </div>
+    <a routerLink="/home"><button>Home Page</button></a>
+    <a routerLink="/quiz"><button>Take Quiz Again</button></a>
+    <a routerLink="/summary"><button>View Character Summaries</button></a>
 
-            <h2 style="text-decoration: underline;">{{name}}</h2>
-            <img [src]="image" height="300" width="250">
-            <p>{{description}}</p>
-
-</body>>
+</body>

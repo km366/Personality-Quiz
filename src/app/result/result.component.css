@@ -1,0 +1,32 @@
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+}
+p {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+button {
+    width: 30%;
+      padding: 5px;
+      font-size: 25px;
+      font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+      background-color:navy;
+      color: white;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border: 1px solid black;
+      border-radius: 6px;
+      resize: vertical;
+}
+button:hover{
+    
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.15em);
+    transition-duration: 0.4s;
+    box-shadow: 0 10px 10px -2px rgba(0,0,0,.5);
+}
